@@ -1,0 +1,13 @@
+.profile__add {
+    display: flex;
+    border: 2px solid #fff;
+    height: 50px;
+    width: 150px;
+    background: url(../../../images/addButton.png) center no-repeat;
+}
+
+@media screen and (max-width: 500px) {
+    .profile__add {
+        width: 282px;
+    }
+}

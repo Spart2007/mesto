@@ -1,12 +1,75 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mesto</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Anton Kharitonov">
+    <title>Место</title>
+    <link rel="stylesheet" href="./pages/index.css">
 </head>
-<body>
-    
+
+<body class="body">
+    <div class="root">
+        <header class="header">
+            <img src="./images/Logo.svg" alt="Logotype" class="header__logo">
+        </header>
+
+        <div class="main">
+            <section class="profile">
+                <img src="./images/profileAvatar.jpg" alt="Avatar" class="profile__avatar">
+                <div class="profile__info">
+                    <h1 class="profile__title">Жак-Ив Кусто</h1>
+                    <button class="profile__edit" type="button">Редактировать</button>
+                    <p class="profile__subtitle">Исследователь океана</p>
+                </div>
+                <button class="profile__add" type="button">Добавить фото</button>
+            </section> 
+              
+            <section class="elements">
+
+                <div class="element">
+                    <img src="./images/KCR.png" alt="Карачаевск" class="element__mask-group">
+                    <p class="element__text">Карачаевск</p>
+                    <button class="element__like-button">like</button>
+                </div>
+
+                <div class="element">
+                    <img src="./images/elbrus.png" alt="Гора Эльбрус" class="element__mask-group">
+                    <p class="element__text">Гора Эльбрус</p>
+                    <button class="element__like-button">like</button>
+                </div>
+
+                <div class="element">
+                    <img src="./images/Dombay.png" alt="Домбай" class="element__mask-group">
+                    <p class="element__text">Домбай</p>
+                    <button class="element__like-button">like</button>
+                </div>
+
+                <div class="element">
+                    <img src="./images/elbrus.png" alt="Гора Эльбрус" class="element__mask-group">
+                    <p class="element__text">Гора Эльбрус</p>
+                    <button class="element__like-button">like</button>
+                </div>
+
+                <div class="element">
+                    <img src="./images/Dombay.png" alt="Домбай" class="element__mask-group">
+                    <p class="element__text">Домбай</p>
+                    <button class="element__like-button">like</button>
+                </div>
+
+                <div class="element">
+                    <img src="./images/KCR.png" alt="Карачаево-черкессия" class="element__mask-group">
+                    <p class="element__text">Карачаево-Черкессия</p>
+                    <button class="element__like-button">like</button>
+                </div>
+
+            </section>
+
+        </div>
+
+        <footer class="footer"></footer>
+
+    </div>
 </body>
-</html>
