@@ -21,3 +21,22 @@
 @import url(../blocks/element/__mask-group/element__mask-group.css);
 @import url(../blocks/element/__text/element__text.css);
 @import url(../blocks/element/__like__button/element__like-button.css);
+@import url(../blocks/element/__row/element__row.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/__open/popup__open.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__close-button/popup__close-button.css);
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__title/form__title.css);
+@import url(../blocks/form/__main-container/form__main-container.css);
+@import url(../blocks/form/__field/form__field.css);
+@import url(../blocks/form/__input/form__input.css);
+  @import url(../blocks/form/__input/_name/form__input_name.css);
+  @import url(../blocks/form/__input/_profession/form__input_profession.css);
+@import url(../blocks/form/__save-buttton/form__save-button.css);
+

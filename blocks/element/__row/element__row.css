@@ -1,0 +1,9 @@
+.element__row {
+    width: 246px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 21px;
+    padding-right: 15px;
+    align-items: center;
+}
