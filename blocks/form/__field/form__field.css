@@ -1,0 +1,9 @@
+.form__field {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+
+.form__field:last-child {
+    padding-top: 30px;
+}
