@@ -33,7 +33,7 @@
                     <img src="./images/KCR.png" alt="Карачаевск" class="element__mask-group">
                     <div class="element__row">
                         <p class="element__text">Карачаевск</p>
-                        <button class="element__like-button"></button>
+                        <button class="element__like-button element__like-button_activated"></button>
                     </div>
                 </div>
 
@@ -41,26 +41,23 @@
                     <img src="./images/elbrus.png" alt="Гора Эльбрус" class="element__mask-group">
                     <div class="element__row">
                         <p class="element__text">Гора Эльбрус</p>
-                        <button class="element__like-button"></button>
+                        <button class="element__like-button element__like-button_activated"></button>
                     </div>
-
                 </div>
 
                 <div class="element">
                     <img src="./images/dombay.png" alt="Домбай" class="element__mask-group">
                     <div class="element__row">
                         <p class="element__text">Домбай</p>
-                        <button class="element__like-button"></button>
+                        <button class="element__like-button element__like-button_activated"></button>
                     </div>
-
-
                 </div>
 
                 <div class="element">
                     <img src="./images/elbrus.png" alt="Гора Эльбрус" class="element__mask-group">
                     <div class="element__row">
                         <p class="element__text">Гора Эльбрус</p>
-                        <button class="element__like-button"></button>
+                        <button class="element__like-button element__like-button_activated"></button>
                     </div>
                 </div>
 
@@ -68,7 +65,7 @@
                     <img src="./images/dombay.png" alt="Домбай" class="element__mask-group">
                     <div class="element__row">
                         <p class="element__text">Домбай</p>
-                        <button class="element__like-button"></button>
+                        <button class="element__like-button element__like-button_activated"></button>
                     </div>
                 </div>
 
@@ -76,7 +73,7 @@
                     <img src="./images/KCR.png" alt="Карачаево-черкессия" class="element__mask-group">
                     <div class="element__row">
                         <p class="element__text">Карачаево-Черкессия</p>
-                        <button class="element__like-button"></button>
+                        <button class="element__like-button element__like-button_activated"></button>
                     </div>
                 </div>
 
@@ -88,22 +85,26 @@
         </footer>
     </div>
 
-    <div class="popup popup__open">
-        <button class="popup__close-button" type="button"></button>
+    <div class="popup">
         <div class="popup__container">
-            <form action="#" class="form">
-                <h2 class="form__title">Редактировать профиль</h2>
-                <div class="form__main-container">
-                    <fieldset class="form__field">
-                        <input class="form__input form__input_name" type="text" value="Жак-Ив Кусто" placeholder="Ваше имя" required>
-                    </fieldset>
-                    <fieldset class="form__field">
-                        <input class="form__input form__input_profession" type="text" value="Исследователь океана" placeholder="Ваша профессия" required>
-                    </fieldset>
-                </div>
-                <button class="form__save-button">Сохранить</button>
-
-            </form>
+            <button class="popup__close-button" type="button"></button>
+            <div class="popup__form-container">
+                <form action="#" class="form">
+                    <h2 class="form__title">Редактировать профиль</h2>
+                    <div class="form__main-container">
+                        <fieldset class="form__field">
+                            <input class="form__input form__input_name" type="text" value="Жак-Ив Кусто"
+                                placeholder="Ваше имя" required>
+                        </fieldset>
+                        <fieldset class="form__field">
+                            <input class="form__input form__input_profession" type="text" value="Исследователь океана"
+                                placeholder="Ваша профессия" required>
+                        </fieldset>
+                    </div>
+                    <button class="form__save-button">Сохранить</button>
+                </form>
+            </div>
         </div>
     </div>
+    <script src="./scripts/index.js"></script>
 </body>

@@ -11,6 +11,24 @@
     align-items: center;
     flex-direction: row-reverse;
     flex-direction: column;
-    padding-top: 12%;
+    padding-top: 13%;
     
+}
+
+@media screen and (max-width: 1279px) {
+    .popup {
+        padding-top: 14%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .popup {
+        padding-top: 18%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .popup {
+        padding-top: 23%;
+    }
 }

@@ -9,3 +9,10 @@
     width: 100%;
     border: none;
 }
+
+@media screen and (max-width: 767px) {
+    .form__input {
+        ffont-size: 14px;
+        line-height: 17px;
+    }
+}
