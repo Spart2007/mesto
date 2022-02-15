@@ -13,5 +13,6 @@
 @media screen and (max-width: 767px) {
     .popup__close-button {
         margin-bottom: 16px;
+        zoom: .6;
     }
 }

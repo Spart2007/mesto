@@ -38,13 +38,19 @@ const formSaveButton = formElement.querySelector(".form__save-button");
 const profileTitle = document.querySelector(".profile__title");
 const profileSubtitle = document.querySelector(".profile__subtitle");
 
-
 const formSubmitHandler = (evt) => {
     evt.preventDefault();//отменяет стандартную отправку формы
 
     profileTitle.textContent = nameInput.value;
     profileSubtitle.textContent = jobInput.value;
+
+    nameInput.textContent = profileTitle.value;
+    jobInput.textContent = profileSubtitle.value;
+
+    closePopup();
+
 };
 
 formInput.addEventListener('submit', formSubmitHandler);
 
+formSaveButton.addEventListener('click', formSubmitHandler);
