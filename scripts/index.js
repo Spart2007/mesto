@@ -1,3 +1,4 @@
+// Код для открытия и закрытия popup
 const popupElement = document.querySelector(".popup");
 const popupCloseButtonElement = popupElement.querySelector(".popup__close-button");
 const profileEditButtonElement = document.querySelector(".profile__edit");
@@ -26,3 +27,24 @@ const closePopupAfterClickOverlay = (event) => {
     }
 }
 popupCloseButtonElement.addEventListener('click', closePopupAfterClickOverlay);
+
+// Ниже код для обработки события отправка формы
+const formElement = document.querySelector(".form");
+const formInput = formElement.querySelector(".form__input");
+const nameInput = formElement.querySelector(".form__input_name");
+const jobInput = formElement.querySelector(".form__input_profession");
+const formSaveButton = formElement.querySelector(".form__save-button");
+
+const profileTitle = document.querySelector(".profile__title");
+const profileSubtitle = document.querySelector(".profile__subtitle");
+
+
+const formSubmitHandler = (evt) => {
+    evt.preventDefault();//отменяет стандартную отправку формы
+
+    profileTitle.textContent = nameInput.value;
+    profileSubtitle.textContent = jobInput.value;
+};
+
+formInput.addEventListener('submit', formSubmitHandler);
+
