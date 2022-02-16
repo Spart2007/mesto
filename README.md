@@ -1,5 +1,5 @@
 # Проект: Место (4 проект)
-[Место](https://Spart2007.github.io/)
+[Место](https://spart2007.github.io/mesto/)
 ## Стек используемых технологий.
 HTML5, CSS3(Grid Layout, flexbox), figma, БЭМ, JavaScript.
 ### О проекте.
