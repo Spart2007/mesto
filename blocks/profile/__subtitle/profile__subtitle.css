@@ -6,11 +6,12 @@
     font-size: 18px;
     line-height: 21.78px;
     margin: 0;
+}
 
-    @media screen and (max-width: 500px) {
-        .profile__subtitle
-            font-size: 14px;
-            line-height: 17px;
-            text-align: center;
-        }
+@media screen and (max-width: 500px) {
+    .profile__subtitle {
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
     }
+}
