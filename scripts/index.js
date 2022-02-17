@@ -9,12 +9,12 @@ const openPopup = () => {
 }
 const closePopup = () => {
     popupElement.classList.remove("popup_open");
-
 }
+
 profileEditButtonElement.addEventListener("click", openPopup);
 popupCloseButtonElement.addEventListener("click", closePopup);
 
-const closePopupAfterClickOverlay = (event) => {
+/*const closePopupAfterClickOverlay = (event) => {
     console.log(event.target, event.curentTarget);
     if (event.target !== event.curentTarget) {
         return;
@@ -22,7 +22,7 @@ const closePopupAfterClickOverlay = (event) => {
     else {
         closePopup();
     }
-}
+}*/
 
 popupCloseButtonElement.addEventListener('click', closePopupAfterClickOverlay);
 
@@ -31,7 +31,7 @@ const formElement = document.querySelector(".form");
 const formInput = formElement.querySelector(".form__input");
 const nameInput = formElement.querySelector(".form_type_name");
 const jobInput = formElement.querySelector(".form_type_profession");
-const formSaveButton = formElement.querySelector(".form__save-button");
+/*const formSaveButton = formElement.querySelector(".form__save-button");*/
 
 const profileTitle = document.querySelector(".profile__title");
 const profileSubtitle = document.querySelector(".profile__subtitle");
@@ -47,4 +47,4 @@ const formSubmitHandler = (evt) => {
 };
 
 formInput.addEventListener('submit', formSubmitHandler);
-formSaveButton.addEventListener('click', formSubmitHandler);
+/*formSaveButton.addEventListener('click', formSubmitHandler);*/
