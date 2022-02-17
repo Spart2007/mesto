@@ -4,6 +4,8 @@
     height: 32px;
     padding-bottom: 8px;
     align-self: flex-end;
+    position: absolute;
+    cursor: pointer;
 }
 
 .popup__close-button:hover {

@@ -1,3 +1,5 @@
 .form__main-container {
     padding-bottom: 48px;
+    margin: 0;
+    border: none;
 }

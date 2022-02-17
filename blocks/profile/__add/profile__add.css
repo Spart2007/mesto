@@ -3,7 +3,7 @@
     border: 2px solid #fff;
     height: 50px;
     width: 150px;
-    background: url(../../../images/addButton.png) center no-repeat;
+    background: url(../../../images/addButton.svg) center no-repeat;
     transition: opacity 0.3s ease-in-out;
     cursor: pointer;
     box-sizing: border-box;
