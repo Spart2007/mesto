@@ -14,7 +14,8 @@ const closePopup = () => {
 profileEditButtonElement.addEventListener("click", openPopup);
 popupCloseButtonElement.addEventListener("click", closePopup);
 
-/*const closePopupAfterClickOverlay = (event) => {
+/*
+const closePopupAfterClickOverlay = (event) => {
     console.log(event.target, event.curentTarget);
     if (event.target !== event.curentTarget) {
         return;
@@ -22,17 +23,15 @@ popupCloseButtonElement.addEventListener("click", closePopup);
     else {
         closePopup();
     }
-}*/
+}
+popupCloseButtonElement.addEventListener('click', closePopupAfterClickOverlay)*/
 
-popupCloseButtonElement.addEventListener('click', closePopupAfterClickOverlay);
 
 // Ниже код для обработки события отправка формы
 const formElement = document.querySelector(".form");
 const formInput = formElement.querySelector(".form__input");
 const nameInput = formElement.querySelector(".form_type_name");
 const jobInput = formElement.querySelector(".form_type_profession");
-/*const formSaveButton = formElement.querySelector(".form__save-button");*/
-
 const profileTitle = document.querySelector(".profile__title");
 const profileSubtitle = document.querySelector(".profile__subtitle");
 
@@ -43,8 +42,9 @@ const formSubmitHandler = (evt) => {
     profileSubtitle.textContent = jobInput.value;
     
     closePopup();
-
 };
+formElement.addEventListener('submit', formSubmitHandler);
 
-formInput.addEventListener('submit', formSubmitHandler);
-/*formSaveButton.addEventListener('click', formSubmitHandler);*/
+//Сохранение изменений при нажатии кнопки popup "Сохранить. Так тоже работает)"
+// const formSaveButton = formElement.querySelector(".form__save-button");
+//formSaveButton.addEventListener('click', formSubmitHandler);

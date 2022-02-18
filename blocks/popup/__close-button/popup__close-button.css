@@ -6,6 +6,8 @@
     align-self: flex-end;
     position: absolute;
     cursor: pointer;
+    border: none;
+    padding: 0;
 }
 
 .popup__close-button:hover {
