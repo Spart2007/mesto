@@ -30,8 +30,8 @@ popupCloseButtonElement.addEventListener('click', closePopupAfterClickOverlay)*/
 // Ниже код для обработки события отправка формы
 const formElement = document.querySelector(".form");
 const formInput = formElement.querySelector(".form__input");
-const nameInput = formElement.querySelector(".form_input_name");
-const jobInput = formElement.querySelector(".form_input_profession");
+const nameInput = formElement.querySelector(".form_type_name");
+const jobInput = formElement.querySelector(".form_type_profession");
 const profileTitle = document.querySelector(".profile__title");
 const profileSubtitle = document.querySelector(".profile__subtitle");
 
