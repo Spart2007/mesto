@@ -3,9 +3,7 @@
     width: 32px;
     height: 32px;
     align-self: flex-end;
-    position: relative;
-    top: 28px;
-    left: 5px;
+    position: absolute;
     cursor: pointer;
     border: none;
     padding: 0;
@@ -18,6 +16,5 @@
 @media screen and (max-width: 767px) {
     .popup__close-button {
         zoom: .7;
-        top: 30px;
     }
 }
