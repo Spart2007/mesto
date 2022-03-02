@@ -24,6 +24,7 @@
 @import url(../blocks/element/__like-button/element__like-button.css);
 @import url(../blocks/element/__like-button/_activated/element__like-button_activated.css);
 @import url(../blocks/element/__row/element__row.css);
+@import url(../blocks/element/__delite-button/element__delite-button.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
@@ -41,4 +42,6 @@
 @import url(../blocks/form/__input/form__input.css);
 @import url(../blocks/form/__input/_type/form__input_type_name.css);
 @import url(../blocks/form/__input/_type/form__input_type_profession.css);
+@import url(../blocks/form/__input/_type/forn__input_type_title.css);
+@import url(../blocks/form/__input/_type/form__input_type_link.css);
 @import url(../blocks/form/__save-buttton/form__save-button.css);
