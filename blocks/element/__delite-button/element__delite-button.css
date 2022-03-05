@@ -1,4 +1,4 @@
-.element__delite-button {
+.element__delete-button {
     background: url(../../../images/deliteButton.svg) center no-repeat;
     width: 18px;
     height: 20px;
@@ -10,6 +10,6 @@
     margin-top: 20px;
 }
 
-.element__delite-button:hover {
+.element__delete-button:hover {
     opacity: .6;
 };
