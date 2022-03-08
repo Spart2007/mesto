@@ -41,8 +41,8 @@ const formElement = document.querySelector(".form");
 // const formCard = document.queryselector(".form_type_card");
 const nameInput = formElement.querySelector(".form__input_type_name");
 const jobInput = formElement.querySelector(".form__input_type_profession");
-const titleInput = formElement.querySelector(".form__input_type_title");
-const linkInput = formElement.querySelector(".form__input_type_src");
+const titleInput = document.querySelector(".form__input_type_title");
+const linkInput = document.querySelector(".form__input_type_src");
 const cardContainer = document.querySelector(".elements__list");
 const formCreateButton = document.querySelector(".form__create-button");
 
@@ -105,16 +105,18 @@ function addElem(item) {
   })
   cardContainer.appendChild(clone)
 }
+render();
 
 formCreateButton.addEventListener('click', () => {
   let newObject =  {}
-  newObject.title = titleInput;
-  newObject.link = linkInput;
-  initialCards.push(newObject);
+  newObject.title = titleInput.value;
+  newObject.link = linkInput.value;
+  initialCards.unshift(newObject);
   render();
-  closePopup();
 });
 render();
+
+
 
 //активация лайка на карточке
 //like-button
