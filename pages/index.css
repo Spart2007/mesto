@@ -46,3 +46,7 @@
 @import url(../blocks/form/__input/_type/form__input_type_link.css);
 @import url(../blocks/form/__save-buttton/form__save-button.css);
 @import url(../blocks/form/__create-button.css/form__create-button.css);
+
+@import url(../blocks/popup/__picture/popup__picture.css);
+@import url(../blocks/popup/__picture-title/popup__picture-title.css);
+
